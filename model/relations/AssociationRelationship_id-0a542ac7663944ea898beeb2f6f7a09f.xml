@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="lan"
+    id="id-0a542ac7663944ea898beeb2f6f7a09f">
+  <source
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_id-2d8ff6f5dc394e2780f58916a8b05f35.xml#id-2d8ff6f5dc394e2780f58916a8b05f35"/>
+  <target
+      xsi:type="archimate:Device"
+      href="Device_id-10ccf9a58e5142838aae9eb7ab4c14f2.xml#id-10ccf9a58e5142838aae9eb7ab4c14f2"/>
+</archimate:AssociationRelationship>
