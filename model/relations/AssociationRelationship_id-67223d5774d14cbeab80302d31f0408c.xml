@@ -2,11 +2,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="lan"
-    id="id-0a542ac7663944ea898beeb2f6f7a09f">
+    id="id-67223d5774d14cbeab80302d31f0408c">
   <source
+      xsi:type="archimate:Device"
+      href="Device_id-3350af7f5f78494fadf988f443bb736a.xml#id-3350af7f5f78494fadf988f443bb736a"/>
+  <target
       xsi:type="archimate:SystemSoftware"
       href="SystemSoftware_id-2d8ff6f5dc394e2780f58916a8b05f35.xml#id-2d8ff6f5dc394e2780f58916a8b05f35"/>
-  <target
-      xsi:type="archimate:Device"
-      href="Device_id-25a0a0a74eb1493f86a6818cfd9302e6.xml#id-25a0a0a74eb1493f86a6818cfd9302e6"/>
 </archimate:AssociationRelationship>
