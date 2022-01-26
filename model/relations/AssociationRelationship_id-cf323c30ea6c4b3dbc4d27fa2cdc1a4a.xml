@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="retrieves employee info"
+    id="id-cf323c30ea6c4b3dbc4d27fa2cdc1a4a">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-97121b067b134887bbbf1d44d532bc3b.xml#id-97121b067b134887bbbf1d44d532bc3b"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-29a302a5e95341a6a2508c9925e66295.xml#id-29a302a5e95341a6a2508c9925e66295"/>
+</archimate:AssociationRelationship>
