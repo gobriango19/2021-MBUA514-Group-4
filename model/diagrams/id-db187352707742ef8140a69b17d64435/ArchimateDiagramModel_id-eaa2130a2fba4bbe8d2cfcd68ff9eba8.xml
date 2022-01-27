@@ -238,7 +238,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-eabd1b5b59964ccaa5e407626ca09160"
-      targetConnections="id-00ca98dbbbbc4b62a81ffdf074ac50f9">
+      targetConnections="id-00ca98dbbbbc4b62a81ffdf074ac50f9 id-771b78da3dbc4debb14e33aa4c6d2bac id-34a28746efbd4b43b99edfb9fb9328a1 id-d146b28df5a44b5fb1fdeef5b25832fc">
     <bounds
         x="372"
         y="210"
@@ -251,7 +251,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-00bd69c89f474830b5a41afd7cd68215"
-      targetConnections="id-2c51d31f904949838b1d6bed4335f7b1">
+      targetConnections="id-2c51d31f904949838b1d6bed4335f7b1 id-b85156a658e346d8a66263570f5cec18 id-0c43a234c063436a923ea639acc49f23 id-57cf80ddfd164565931d5a480d92ee85">
     <bounds
         x="516"
         y="210"
@@ -313,7 +313,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-df75a499464340e0950508d68ccbe56b">
+      id="id-df75a499464340e0950508d68ccbe56b"
+      targetConnections="id-2af7b90badab42ec83b2a333b9a460ed id-e85f94218d204ba991237922d634e622">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-13f38eccb8bf40769a76aac019cdfd3d"
@@ -339,7 +340,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-786d1f3c64f74e47b750d490a129a236">
+      id="id-786d1f3c64f74e47b750d490a129a236"
+      targetConnections="id-ec9e46fc1962435eb78ed6afd7a36e91 id-80bcb799757f4377a4e83680c7b14b42">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0f41846e258f474697e2efc96155f06e"
@@ -360,7 +362,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-cbce775fd2654195ad76763e47e25eca">
+      id="id-cbce775fd2654195ad76763e47e25eca"
+      targetConnections="id-a33f3022d89a4b4d9bde2550834c27c2 id-a6381d73b0aa4b5090d983bdcea33bbb">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b6f9a58e442b42d8b2f7908682dd17e3"
@@ -404,5 +407,178 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_id-7ea2e50273c4435bbeba1677df7573cf.xml#id-7ea2e50273c4435bbeba1677df7573cf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a4497590321b40f4a637c4d4d3e4481f"
+      textAlignment="1"
+      content="Benefit: Cafe managers know when their baristas attend training&#xA;&#xA;Enabling changes: Setup automation of communication&#xA;&#xA;Business changes: Everyone is updated via the same platform, training is booked online via central system">
+    <sourceConnections
+        id="id-771b78da3dbc4debb14e33aa4c6d2bac"
+        source="id-a4497590321b40f4a637c4d4d3e4481f"
+        target="id-eabd1b5b59964ccaa5e407626ca09160"/>
+    <sourceConnections
+        id="id-b85156a658e346d8a66263570f5cec18"
+        source="id-a4497590321b40f4a637c4d4d3e4481f"
+        target="id-00bd69c89f474830b5a41afd7cd68215"/>
+    <sourceConnections
+        id="id-a6381d73b0aa4b5090d983bdcea33bbb"
+        source="id-a4497590321b40f4a637c4d4d3e4481f"
+        target="id-cbce775fd2654195ad76763e47e25eca">
+      <bendpoints
+          startX="-564"
+          startY="-37"
+          endX="-144"
+          endY="-573"/>
+      <bendpoints
+          startX="-564"
+          startY="527"
+          endX="-144"
+          endY="-9"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-80bcb799757f4377a4e83680c7b14b42"
+        source="id-a4497590321b40f4a637c4d4d3e4481f"
+        target="id-786d1f3c64f74e47b750d490a129a236">
+      <bendpoints
+          startX="-564"
+          startY="-37"
+          endX="-144"
+          endY="-645"/>
+      <bendpoints
+          startX="-564"
+          startY="599"
+          endX="-144"
+          endY="-9"/>
+    </sourceConnections>
+    <bounds
+        x="420"
+        y="-46"
+        width="313"
+        height="143"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2fe2bddd6aa440be98981b69f76aefe0"
+      textAlignment="1"
+      content="Benefit: Ensure all roles are staffed with workers whose skills match the role requirement&#xA;&#xA;Business changes: Training is booked online via a central system">
+    <sourceConnections
+        id="id-34a28746efbd4b43b99edfb9fb9328a1"
+        source="id-2fe2bddd6aa440be98981b69f76aefe0"
+        target="id-eabd1b5b59964ccaa5e407626ca09160">
+      <bendpoints
+          startX="150"
+          endX="-36"
+          endY="-177"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-0c43a234c063436a923ea639acc49f23"
+        source="id-2fe2bddd6aa440be98981b69f76aefe0"
+        target="id-00bd69c89f474830b5a41afd7cd68215">
+      <bendpoints
+          startX="126"
+          startY="12"
+          endX="-204"
+          endY="-165"/>
+      <bendpoints
+          startX="126"
+          startY="84"
+          endX="-204"
+          endY="-93"/>
+      <bendpoints
+          startX="270"
+          startY="84"
+          endX="-12"
+          endY="-93"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-e85f94218d204ba991237922d634e622"
+        source="id-2fe2bddd6aa440be98981b69f76aefe0"
+        target="id-df75a499464340e0950508d68ccbe56b">
+      <bendpoints
+          startX="-234"
+          startY="24"
+          endX="-144"
+          endY="-405"/>
+      <bendpoints
+          startX="-234"
+          startY="432"
+          endX="-144"
+          endY="3"/>
+    </sourceConnections>
+    <bounds
+        x="144"
+        width="205"
+        height="121"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d52c80381deb4fc6ad8ed676905631fd"
+      textAlignment="1"
+      content="Benefit: Baristas are trained and qualified to make coffee for Coffee Co&#xA;&#xA;Business changes: Training is booked online via a central system">
+    <sourceConnections
+        id="id-d146b28df5a44b5fb1fdeef5b25832fc"
+        source="id-d52c80381deb4fc6ad8ed676905631fd"
+        target="id-eabd1b5b59964ccaa5e407626ca09160"/>
+    <sourceConnections
+        id="id-57cf80ddfd164565931d5a480d92ee85"
+        source="id-d52c80381deb4fc6ad8ed676905631fd"
+        target="id-00bd69c89f474830b5a41afd7cd68215">
+      <bendpoints
+          startX="306"
+          startY="-36"
+          endX="-24"
+          endY="-57"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-2af7b90badab42ec83b2a333b9a460ed"
+        source="id-d52c80381deb4fc6ad8ed676905631fd"
+        target="id-df75a499464340e0950508d68ccbe56b">
+      <bendpoints
+          startX="-198"
+          startY="168"
+          endX="-108"
+          endY="-105"/>
+      <bendpoints
+          startX="-198"
+          startY="264"
+          endX="-108"
+          endY="-9"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-a33f3022d89a4b4d9bde2550834c27c2"
+        source="id-d52c80381deb4fc6ad8ed676905631fd"
+        target="id-cbce775fd2654195ad76763e47e25eca">
+      <bendpoints
+          startX="-198"
+          startY="168"
+          endX="-108"
+          endY="-177"/>
+      <bendpoints
+          startX="-198"
+          startY="336"
+          endX="-108"
+          endY="-9"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-ec9e46fc1962435eb78ed6afd7a36e91"
+        source="id-d52c80381deb4fc6ad8ed676905631fd"
+        target="id-786d1f3c64f74e47b750d490a129a236">
+      <bendpoints
+          startX="-198"
+          startY="168"
+          endX="-108"
+          endY="-249"/>
+      <bendpoints
+          startX="-198"
+          startY="408"
+          endX="-108"
+          endY="-9"/>
+    </sourceConnections>
+    <bounds
+        x="144"
+        y="156"
+        width="205"
+        height="121"/>
   </children>
 </archimate:ArchimateDiagramModel>
