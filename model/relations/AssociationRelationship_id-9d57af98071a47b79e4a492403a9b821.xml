@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="migration"
+    id="id-9d57af98071a47b79e4a492403a9b821">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-f08f5b5431b2401187459415b7895dcd.xml#id-f08f5b5431b2401187459415b7895dcd"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-5553866faea34a9195731ffd88adb495.xml#id-5553866faea34a9195731ffd88adb495"/>
+</archimate:AssociationRelationship>
