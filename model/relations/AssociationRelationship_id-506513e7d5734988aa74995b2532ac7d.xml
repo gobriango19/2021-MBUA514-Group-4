@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="migration"
+    id="id-506513e7d5734988aa74995b2532ac7d">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-c0a4d2e786654638ad3b3c1b899a1b08.xml#id-c0a4d2e786654638ad3b3c1b899a1b08"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-c0a4d2e786654638ad3b3c1b899a1b08.xml#id-c0a4d2e786654638ad3b3c1b899a1b08"/>
+</archimate:AssociationRelationship>
